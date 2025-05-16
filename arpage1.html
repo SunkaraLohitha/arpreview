@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Furniture AR Preview</title>
+  <style>
+    body { text-align: center; font-family: sans-serif; }
+    img { width: 300px; }
+    .qr { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h2>Scan to Place in Your Room</h2>
+
+  <!-- Furniture image -->
+  <img src="https://sunkaralohitha.github.io/arpreview/001.530.69.jpg" alt="Furniture Image">
+
+  <!-- Android Scene Viewer deep link -->
+  <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://sunkaralohitha.github.io/arpreview/001.530.69.glb&mode=ar_preferred#Intent;scheme=https;package=com.google.ar.core;action=android.intent.action.VIEW;S.browser_fallback_url=https://sunkaralohitha.github.io/arpreview/001.530.69.glb;end;">
+    <button>View in AR (Android)</button>
+  </a>
+
+  <div class="qr">
+    <img src="https://sunkaralohitha.github.io/arpreview/qr-code-71654594.png" alt="Scan QR to open AR">
+  </div>
+</body>
+</html>
